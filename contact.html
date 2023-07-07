@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/small logo.png" rel="icon" type="image/png">
+    <title>OuO_Contact us</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.cdnfonts.com/css/ink-free" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+        @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Klee+One:wght@600&family=PT+Sans+Narrow&family=Rajdhani&display=swap');
+    </style>
+
+</head>
+<!--style=" background-image: url(./img/kitchen.jpg);" -->
+
+<body style="font-family: 'cwTeXYen', sans-serif;">
+    <section class="header">
+
+        <div class="hello">
+            <div class="container">
+                <nav class="navbar navbar-expand-md  rounded" aria-label="Eleventh navbar example">
+                    <div class="container">
+                        <a class="navbar-brand" href="ouo.html">
+
+                            <picture>
+                                <source srcset="small logo.svg" media="(max-width: 564px)">
+                                <source srcset="small logo white.svg" media="(min-width: 564px)">
+
+                                <img src="small logo white.svg" id="logo">
+                            </picture>
+                        </a>
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarlist" aria-controls="navbarlist" aria-expanded="false"
+                            aria-label="Toggle navigation"
+                            style="border-radius: 0; border-color: rgb(255, 255, 255,0.3);">
+                            <span class=" "><img src="img/toggle.png" class="py-2"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse " id="navbarlist">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="padding-right: 30px;">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="ouo.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="guestroom.html">Guestroom</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light active " aria-current="page"
+                                        href="gallery.html">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="policies.html">Policies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="contact.html"><span id="ho"> Contact</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class=" text-light" href="#"> </a> <!-- 空格用 -->
+                                </li>
+
+                            </ul>
+                            <form class="d-flex booking">
+                                <a class="btnlink" href="booking.html"><button
+                                        class="btn btn-outline-light bookingbtn btn-lg" type="button"> Book</button></a>
+
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </section>
+    <br>
+
+
+    <div class="container px-5 ">
+
+        <main>
+            <div class="py-5 text-center">
+                <!-- <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+                <h2 style="font-family: 'Kalam', sans-serif;">Contact us </h2>
+                <br>
+                <p class="lead">如果有任何問題 請填選下列表格 將會盡速回復您 </p>
+                <p class="lead " style="font-family: 'Kalam', sans-serif;">if you have any problem please contact us.
+                    Thank you</p>
+            </div>
+
+            <div class="row g-5 form">
+                <div class="col-md-2 col-lg-2"></div>
+                <div class="col-md-8 col-lg-8">
+                    <!-- <h4 class="mb-3">Billing address</h4> -->
+                    <form class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label"> 姓 First name</label>
+                                <input type="text" class="form-control contactform" id="firstName" placeholder=""
+                                    value="" required>
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">名 Last name</label>
+                                <input type="text" class="form-control contactform" id="lastName" placeholder=""
+                                    value="" required>
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control contactform" id="email"
+                                    placeholder="abc@example.com">
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address for shipping updates.
+                                </div>
+                            </div>
+                            <br><br>
+                            <div class="col-md-5">
+                                <label for="country" class="form-label ">問題類型 Question Type</label>
+                                <select class="form-select contactform" id="country" required>
+                                    <option selected="selected" disabled="disabled" style="display: none;"></option>
+                                    <option>房型</option>
+                                    <option>房價</option>
+                                    <option>匯款</option>
+                                    <option>其他</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="" id="" cols="50" rows="8" placeholder="問題內容"></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter your shipping address.
+                                </div>
+                            </div>
+
+                            <div style="color: #6c757d;"></div>
+
+
+
+                        </div>
+
+
+
+                        <button class="btn btn-outline-dark btn-lg d-flex" type="button" onclick="checkout()"
+                            id="check">checkout</button>
+                    </form>
+                </div>
+
+            </div>
+        </main>
+        <a data-bs-toggle="tooltip" data-bs-placement="left" title="message" href="https://www.messenger.com/"
+            target="_blank">
+            <div id="chat"><img src="img/Chat.png" alt=""></div>
+        </a>
+    </div>
+    <hr class=" container">
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1 text-center">歐歐睏 &ensp; <span style="font-family: 'Kalam', sans-serif;   ">OuO Inn</span> </p>
+        <a href="https://twitter.com/?lang=zh-Hant"target="_blank"><img src="img/Twitter - Original.svg" alt=""></a>
+        <a href="https://www.facebook.com/"target="_blank"><img src="img/Facebook - Negative.svg" alt=""></a>
+        <a href="https://www.instagram.com/"target="_blank"><img src="img/Instagram - Negative.svg" alt=""></a>
+        <ul class="list-inline " style="font-family: 'Kalam', sans-serif;   ">
+            <li class="list-inline-item "><a class="backtotop" href="#">back to top</a></li>
+        </ul>
+
+    </footer>
+
+
+    <script>
+        function checkout() {
+            swal('已收到您的提問，將會盡速回復您');
+            console.log('hi');
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
