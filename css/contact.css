@@ -1,0 +1,87 @@
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    padding-bottom: 600px;
+    object-fit: contain;
+    background-image: url(../img/contact.png);
+}
+
+
+@media screen and (max-width:564px){
+    .header{
+        background-image: url(../img/contact_2.png);
+         
+}
+
+}
+
+/* 裝置寬度大於 1000px */
+/* div 背景設定粉紅色 */
+/* @media screen and (min-width:1000px){
+    .header{
+        background-image: url(./img/lobby1.png);
+         
+}
+} */
+#navbarlist{
+    font-size: 18px;
+    font-family: 'Kalam', sans-serif;
+}
+
+
+
+
+
+.btn {
+    border-radius: 0;
+    font-family: 'Kalam', sans-serif;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.nav-link:hover{
+    
+    border-bottom: 2px solid white;
+}
+
+.contactform{
+    border-radius: 0;
+}
+
+textarea{
+    border-color: #dee2e6;
+}
+
+/* textarea:hover{
+    border-color: rgb(199, 194, 161);
+} */
+
+.backtotop:link{ color: #6c757d}
+.backtotop:visited{ color: #6c757d}
+.backtotop:hover{ color: #6c757d}
+
+a{
+    text-decoration:none;
+}
+
+#chat {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    /* background-image: url(./img/Chat.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+
+}
+
+.lead{
+    font-family: 'Kalam', sans-serif;
+}
+
+.form{
+    font-family: 'Kalam', sans-serif;
+}

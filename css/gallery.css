@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Klee+One:wght@600&family=PT+Sans+Narrow&family=Rajdhani&display=swap');
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+div.row>div>div.row {
+    margin-bottom: 15px;
+}
+
+
+
+figure {
+    position: relative;
+}
+
+figure figcaption {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    bottom: 10px;
+    right: 20px;
+    position: absolute;
+    background-color: #000;
+}
+
+section {
+    display: block;
+}
+
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+
+p {
+    /* border: 1px silver solid; */
+    line-height: 2;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    text-align: justify;
+    /* text-indent: -10em; */
+    padding: 0 0 0 20px;
+    margin: 8px 0 8px 0;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #3e3d3a;
+}
+
+.btn {
+    border-radius: 0;
+    font-family: 'Kalam', sans-serif;
+}
+
+.btn:hover {
+    background-color: #3e3d3a;
+}
+
+.backtotop:link {
+    color: #6c757d
+}
+
+.backtotop:visited {
+    color: #6c757d
+}
+
+.backtotop:hover {
+    color: #6c757d
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbarlist {
+    font-size: 18px;
+    font-family: 'Kalam', sans-serif;
+}
+#chat {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    /* background-image: url(./img/Chat.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+
+}
+.linephoto{
+  margin-bottom: 100px;
+}
+
+.linephoto > a:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
